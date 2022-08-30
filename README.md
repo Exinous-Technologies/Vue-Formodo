@@ -1,0 +1,2 @@
+# Vue-Formodo
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3118e83b4bec4625810abc516fd7147a)](https://app.codacy.com/gh/Exinous-Technologies/Vue-Formodo?utm_source=github.com&utm_medium=referral&utm_content=Exinous-Technologies/Vue-Formodo&utm_campaign=Badge_Grade_Settings)
