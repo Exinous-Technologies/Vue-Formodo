@@ -1,5 +1,31 @@
 <template>
-  <FormRenderer>HI</FormRenderer>
+  <FormRenderer
+    :schema="{
+      name: 'yolo',
+      type: 'Document',
+      fields: [
+        {
+          name: 'orderId',
+          title: 'Order Id',
+          type: 'Text',
+          props: {
+            test: 1,
+          },
+        },
+        {
+          name: 'orderId',
+          title: 'Order Id',
+          type: 'Text',
+        },
+        {
+          name: 'orderId',
+          title: 'Order Id',
+          type: 'Text',
+        },
+      ],
+    }"
+    >HI</FormRenderer
+  >
 </template>
 
 <script lang="ts">
