@@ -1,18 +1,38 @@
 <template>
-  <img alt="Vue logo" src="@/assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <FormRenderer
+    :schema="{
+      name: 'yolo',
+      type: 'Document',
+      fields: [
+        {
+          name: 'orderId',
+          title: 'Order Id',
+          type: 'Text',
+          props: {
+            test: 1,
+          },
+        },
+        {
+          name: 'orderId',
+          title: 'Order Id',
+          type: 'Text',
+        },
+        {
+          name: 'orderId',
+          title: 'Order Id',
+          type: 'Text',
+        },
+      ],
+    }"
+    >HI</FormRenderer
+  >
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue'
 
-  import HelloWorld from '@/components/HelloWorld.vue'
-
   export default defineComponent({
     name: 'App',
-    components: {
-      HelloWorld,
-    },
   })
 </script>
 
